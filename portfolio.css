@@ -151,7 +151,7 @@ h3{
   /* background-color: blue; */
 }
 
-.html{
+.html-1{
   display: flex;
   margin-top: 50px;
   margin-left: 7%;
@@ -233,15 +233,6 @@ h3{
   /* background-color: aqua; */
 }
 
-.heading-4{
-  display: flex;
-  align-items: center;
-  height: 550px;
-  width:100%;
-  /* background-color: rgb(145, 255, 0); */
-  gap:80px
-}
-
 .inner-content-left{
   display: flex;
   flex-direction: column;
@@ -249,6 +240,16 @@ h3{
   /* background-color: rgb(24, 0, 239); */
   margin-left: 50px;
   gap: 40px;
+}
+.inner-content-right{
+  background-color: #212121;
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 100px;
+  padding: 20px;
+
 }
 
 .icon-2{
@@ -262,16 +263,7 @@ h3{
   gap: 100px;
 }
 
-.inner-content-right{
-  background-color: #212121;
-  width: 600px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-left: 100px;
-  padding: 20px;
 
-}
 
 .input-content{
   display: flex;
@@ -321,12 +313,16 @@ h3{
   
 
   /* Update .text styles */
-  .content,header{
+ 
+  header{
+    width: 100%;
+  }
+  .content,{
     width: 100%;
   }
   .inner__text{
     margin-left: 20px;
-    width: 100%;
+    width: 90%;
     height: auto;
     margin-top: 50px;
     flex-direction: column;
@@ -339,12 +335,14 @@ h3{
   }
   .image {
     justify-content: center;
-    width: 70%px;
+    width: 70%;
+    height: 350px;
     
   }
  .content-5{
     margin-top: 100px;
     flex-direction: column;
+    width: 80%;
   }
   .content-2{
     margin-top: 100px;
@@ -353,16 +351,11 @@ h3{
  
   .content-4{
     display: flex;
-    margin-left: 40px;
+    width: 80%;
+    margin-left: 20px;
     margin-top: 50px;
     justify-content: center;
     flex-direction: column;
-  }
-  .image-1 {
-    width: 200px;
-    height: auto;
-    background: url('path/to/mobile-image.jpg') center/cover;
-    border-radius: 50%;
   }
 
   /* Update .bott styles */
@@ -395,11 +388,6 @@ h3{
   }
 
   /* Update .content-6 styles */
-  .inner-content-left, .inner-content-right {
-    margin-left: 20px;
-    height: auto;
-    width: 90%;
-  }
   .input-content {
     display: flex;
     flex-direction: column;
@@ -418,17 +406,29 @@ h3{
   .main{
     display: flex;
     flex-direction: column;
+    width: 100%;
+    margin-right: 0px;
+    justify-content: flex-start;
   }
   .content-6{
     display: flex;
     flex-direction: column;
+    align-content: center;
+    justify-content: center;
     margin-top: 100px;
-  }
-  .inner-content-right{
-    margin-top: 20px;
-    margin-left: 10px;
+    margin-left: 0px;
     width: 80%;
-    height: auto;
+  }
+  .mail{
+    flex-direction: column;
+    gap: 20px;
+  }
+  .inner-content-right, .inner-content-left{  
+    margin-left: 0px;                            
+    margin-bottom: 20px;
+    /* margin-left: 10px; */
+    width: 60%;
+    height: 10%;
   }
 }
 
