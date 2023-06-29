@@ -32,12 +32,10 @@ body{
   position: absolute;
   left: 10px;
 }
-
-/* .logo{
-  
-  height: 50px;
-  width: 100%;
-} */
+.nav-content{
+  display: flex;
+  gap: 20px;
+}
 
 .Aman{
   font-size: 44px;
@@ -55,12 +53,6 @@ body{
   border-radius: 30%;
   background-image: url("DP.jpg");
   background-size: cover;
-  /* background-color:green; */
-  /* position: absolute; */
-  /* right: 20%; */
-  
-  /* wait chai pee rhe hai */
-  /* ok lets take a break */
 }
 .inner__text{
   /* background-color:red; */
@@ -68,15 +60,10 @@ body{
   justify-content: space-between;
   align-items: center;
   margin-left: 100px;
+  margin-top: 100px;
   width: 90%;
 }
-/* .image-1{
-  border-radius: 30%;
-  background-image: url("DP.jpg");
-  background-size: cover;
-  height: 350px;
-  width: 100%;
-} */
+
 .bott{
   display: flex;
   justify-content: start;
@@ -96,13 +83,13 @@ body{
 
 .content-2{
   
-  margin-top: 10%;
+  margin-top: 200px;
   /* display: flex; */
   /* flex-direction:column; */
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   gap: 50px;
-  height: 600px;
+  /* height: 600px; */
   width: 100%;
   /* background-color: aqua; */
 }
@@ -110,7 +97,7 @@ body{
   display:flex;
   justify-content: space-between;
   gap:80px;
-  margin: 0px 100px;
+  margin: 50px 100px;
 }
 .innercontent{
   width:200px;
@@ -134,10 +121,10 @@ h3{
 /* Third Page */
 
 .content-4{
-  margin-top: 10%;
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* justify-content: flex-start; */
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
   padding: 20px;
   /* align-items: center; */
   /* height: 600px; */
@@ -189,6 +176,7 @@ h3{
 .content-5{
   /* display: flex; */
   /* justify-content: center; */
+  margin-top: 5%;
   padding: 20px;
   /* align-items: center; */
   /* height: 600px; */
@@ -201,11 +189,9 @@ h3{
   height: 550px;
   width:100%;
   /* background-color: red; */
-} */
 .Experience-1{
-  margin-left: 100px;
-}
-
+  /* margin-left: px; */
+} 
 .Experience{
   /* background-color: rgb(0, 76, 207); */
   height: 50px;
@@ -229,12 +215,12 @@ h3{
 
 .content-6{
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   padding: 20px;
   align-items: center;
   /* height: 600px; */
   width: 100%;
-  margin-top: 70px;
+  margin-top: 7%;
   margin-left: 50px;
   /* background-color: aqua; */
 }
@@ -327,11 +313,11 @@ h3{
   .nav-content a {
     margin: 10px 0;
   }
-  header{
-    /* width: 100%; */
-  }
 
   /* Update .text styles */
+  .content,header{
+    width: 500px;
+  }
   .text {
     padding: 40px;
   }
