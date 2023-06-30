@@ -95,7 +95,7 @@ a{
   /* display: flex; */
   /* flex-direction:column; */
   /* justify-content: center; */
-  align-items: center;
+  /* align-items: center; */
   gap: 50px;
   /* height: 600px; */
   width: 100%;
@@ -167,8 +167,9 @@ h3{
   font-size: 30px;
   
 }
-.html-p,.js{
+.html-p{
   display: flex;
+  flex-direction: row;
   justify-content: flex-start;
   gap: 150px;
   
@@ -360,7 +361,16 @@ h3{
   }
   .content-2{
     margin-top: 100px;
+    display: flex;
     flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+  }
+  .innercontent{
+    width: 90%;
+  }
+  .Ido{
+    margin-left: 0px;
   }
  
   .content-4{
@@ -388,7 +398,7 @@ h3{
   }
 
   /* Update .content-4 styles */
-  .html-p, .js {
+  .html-p, .js, .python {
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
@@ -399,6 +409,7 @@ h3{
   /* Update .content-5 styles */
   .inner-content-1 {
     margin-top: 20px;
+    width: 70%;
   }
 
   /* Update .content-6 styles */
