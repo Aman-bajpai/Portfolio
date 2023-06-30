@@ -398,7 +398,7 @@ h3{
   }
 
   /* Update .content-4 styles */
-  .html-p, .js, .python {
+  .html-p, .js,.python {
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
